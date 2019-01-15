@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserInputActivity">
+
+
+    <EditText
+        android:id="@+id/yearEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="year"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/makeEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="make"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/modelEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="model"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/colorEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="color"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/engineEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="engine"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/transTypeEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="transmission type"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/titleEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="title status"
+        android:textSize="24sp"/>
+
+
+    <Button
+        android:id="@+id/goToMainActivityButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go to main activity"
+        android:onClick="onClick"/>
+
+</LinearLayout>

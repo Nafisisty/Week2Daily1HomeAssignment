@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/yearTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="year"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/makeTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="make"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/modelTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="model"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/colorTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="color"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/engineTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="engine"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/transTypeTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="transmission type"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/titleTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title Status"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/resultButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start activity result"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/goToNextActivityButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go to next activity"
+        android:onClick="onClick"/>
+</LinearLayout>
